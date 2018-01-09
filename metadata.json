@@ -1,0 +1,16 @@
+{
+  "name": "mycompany-hosts",
+  "version": "0.1.0",
+  "author": "Alamsyah",
+  "summary": "Manage linux hosts file",
+  "license": "Apache 2.0",
+  "source": "https://github.com/alamsyahho/Development/tree/master/hosts",
+  "project_page": "https://github.com/alamsyahho/Development/tree/master/hosts",
+  "issues_url": "https://github.com/alamsyahho/Development/tree/master/hosts/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}

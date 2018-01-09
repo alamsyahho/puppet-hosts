@@ -1,0 +1,10 @@
+# managed by Puppet class "hosts" (<%= scope.lookupvar('hosts::params::tmpl_version') %>)
+
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+<%= scope.lookupvar('::ipaddress') -%>  <%= scope.lookupvar('::hostname') -%>.<%= scope.lookupvar('hosts::params::domain') -%>  <%= scope.lookupvar('::hostname') -%>
+
+<%= scope.lookupvar('hosts::params::puppet_ip') -%>  idjklcfgm001.<%= scope.lookupvar('hosts::params::domain') -%>  idjklcfgm001
+
+# Custom hosts specific entries. Please put new entries below
